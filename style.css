@@ -33,3 +33,4 @@ body.page { display: block; height: auto; min-height: 100%; }
 .doc p, .doc li { font-size: 1rem; line-height: 1.6; opacity: .9; }
 .doc ul { margin: 0 0 20px; padding-left: 20px; }
 .doc .home { display: inline-block; margin-bottom: 16px; }
+.doc .qr { background: #fff; padding: 0; image-rendering: pixelated; border-radius: 4px; }
