@@ -24,3 +24,12 @@ p { margin: 0 0 20px; font-size: 1.1rem; opacity: .85; }
 nav { display: flex; gap: 12px 28px; justify-content: center; flex-wrap: wrap; }
 a { color: var(--accent); text-underline-offset: 4px; }
 a:hover, a:focus-visible { color: #fff; }
+
+/* Text pages (app support, privacy) */
+body.page { display: block; height: auto; min-height: 100%; }
+.doc { max-width: 680px; margin: 0 auto; padding: 24px 0 48px; text-align: left; }
+.doc h1 { line-height: 1.2; font-size: 1.6rem; margin: 8px 0 12px; }
+.doc h2 { font-size: 1.1rem; margin: 28px 0 8px; color: var(--accent); }
+.doc p, .doc li { font-size: 1rem; line-height: 1.6; opacity: .9; }
+.doc ul { margin: 0 0 20px; padding-left: 20px; }
+.doc .home { display: inline-block; margin-bottom: 16px; }
