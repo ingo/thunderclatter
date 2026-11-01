@@ -11,7 +11,7 @@ body {
 }
 main { text-align: center; }
 .logo {
-  width: min(480px, 80vw);
+  width: min(300px, 60vw);
   height: auto;
   aspect-ratio: 1;
   image-rendering: pixelated;
@@ -19,7 +19,7 @@ main { text-align: center; }
   image-rendering: pixelated;
 }
 h1 { margin: 20px 0 16px; line-height: 0; }
-.title { width: min(690px, 92vw); height: auto; image-rendering: pixelated; }
+.title { width: min(460px, 80vw); height: auto; image-rendering: pixelated; }
 p { margin: 0 0 20px; font-size: 1.1rem; opacity: .85; }
 nav { display: flex; gap: 12px 28px; justify-content: center; flex-wrap: wrap; }
 a { color: var(--accent); text-underline-offset: 4px; }
